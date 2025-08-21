@@ -23,9 +23,9 @@ public class TodoService {
 
 		return repo.findAll();
 	}
-	
-	
-	public void deletetodo(Long TodoId) {
-		 repo.deleteById(TodoId);
+
+	public void deletetodo(Long id) {
+		repo.deleteById(id);
 	}
+
 }

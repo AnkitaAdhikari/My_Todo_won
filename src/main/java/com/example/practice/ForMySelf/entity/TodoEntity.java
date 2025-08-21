@@ -13,17 +13,17 @@ public class TodoEntity {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int TodoId;
+	private Long todoId;
 
 	@Column(name = "Comment")
 	private String comment;
 
-	public int getTodoId() {
-		return TodoId;
+	public Long getTodoId() {
+		return todoId;
 	}
 
-	public void setTodoId(int todoId) {
-		TodoId = todoId;
+	public void setTodoId(Long todoId) {
+		this.todoId = todoId;
 	}
 
 	public String getComment() {
@@ -33,5 +33,4 @@ public class TodoEntity {
 	public void setComment(String comment) {
 		this.comment = comment;
 	}
-
 }

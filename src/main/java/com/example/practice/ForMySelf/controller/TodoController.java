@@ -28,9 +28,10 @@ public class TodoController {
 		return service.getalltodos();
 	}
 
-	@DeleteMapping("/DeleteTodo/{TodoId}")
-	public String delete(@PathVariable Long TodoId) {
-		service.deletetodo(TodoId);
-		return "Todo with id" + TodoId + "deleted successfully";
+	@DeleteMapping("/DeleteTodo/{todoId}")
+	public String delete(@PathVariable Long todoId) {
+		service.deletetodo(todoId);
+		return "Todo with id " + todoId + " deleted successfully";
 	}
+
 }
