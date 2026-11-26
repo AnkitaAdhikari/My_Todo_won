@@ -8,7 +8,7 @@ public class ForMySelfApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ForMySelfApplication.class, args);
-		System.out.println("Hello to do list");
+		System.out.println("Helo to do list");
 	}
 
 }
