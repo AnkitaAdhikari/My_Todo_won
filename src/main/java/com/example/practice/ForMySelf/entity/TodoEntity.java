@@ -18,6 +18,10 @@ public class TodoEntity {
 	@Column(name = "Comment")
 	private String comment;
 
+	private String name;
+
+	private  Long id;
+
 	public Long getTodoId() {
 		return todoId;
 	}
