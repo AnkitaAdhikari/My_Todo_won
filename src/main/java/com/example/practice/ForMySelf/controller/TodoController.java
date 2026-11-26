@@ -33,5 +33,5 @@ public class TodoController {
 		service.deletetodo(todoId);
 		return "Todo with id " + todoId + " deleted successfully";
 	}
-
 }
+
