@@ -9,4 +9,6 @@ import com.example.practice.ForMySelf.entity.TodoEntity;
 public interface TodoRepo  extends JpaRepository<TodoEntity, Long>{
 
 
+
+  
 }
